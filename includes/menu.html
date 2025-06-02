@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Sabores del Mundo</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Sabores<span>DelMundo</span></div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+                    <li><a href="about.html">Nuestra Cocina</a></li>
+                    <li><a href="gallery.html">Galería</a></li>
+                    <li><a href="reservations.html">Reservaciones</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </header>
+
+    <!-- Banner de página -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Nuestro Menú</h1>
+            <p>Descubre nuestra selección de platos exquisitos</p>
+        </div>
+    </section>
+
+    <!-- Menú completo -->
+    <section class="full-menu">
+        <div class="container">
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="entradas">Entradas</button>
+                <button class="menu-tab" data-tab="principales">Platos Principales</button>
+                <button class="menu-tab" data-tab="postres">Postres</button>
+                <button class="menu-tab" data-tab="bebidas">Bebidas</button>
+            </div>
+
+            <div class="menu-section active" id="entradas">
+                <h2>Entradas</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Bruschetta Clásica</h3>
+                            <div class="item-price">$12.99</div>
+                        </div>
+                        <p>Pan toscano con tomate fresco, albahaca y aceite de oliva virgen extra</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Carpaccio de Res</h3>
+                            <div class="item-price">$16.99</div>
+                        </div>
+                        <p>Finas láminas de res con rúcula, parmesano y alcaparras</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Calamares a la Romana</h3>
+                            <div class="item-price">$14.99</div>
+                        </div>
+                        <p>Calamares rebozados con salsa tártara casera</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Ensalada Caprese</h3>
+                            <div class="item-price">$13.99</div>
+                        </div>
+                        <p>Tomate, mozzarella di bufala, albahaca y reducción de balsámico</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section" id="principales">
+                <h2>Platos Principales</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Solomillo Wellington</h3>
+                            <div class="item-price">$32.99</div>
+                        </div>
+                        <p>Ternera premium envuelta en hojaldre con paté y champiñones</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Risotto de Hongos</h3>
+                            <div class="item-price">$24.99</div>
+                        </div>
+                        <p>Arborio con mezcla de hongos silvestres y trufa negra</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Pasta Fresca con Mariscos</h3>
+                            <div class="item-price">$28.99</div>
+                        </div>
+                        <p>Tagliatelle casera con langostinos, mejillones y salsa de vino blanco</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Pato a la Naranja</h3>
+                            <div class="item-price">$29.99</div>
+                        </div>
+                        <p>Pato confitado con salsa de naranja y reducción de oporto</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section" id="postres">
+                <h2>Postres</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Tiramisú Clásico</h3>
+                            <div class="item-price">$12.99</div>
+                        </div>
+                        <p>Capas de bizcocho de café, mascarpone y cacao en polvo</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Fondant de Chocolate</h3>
+                            <div class="item-price">$11.99</div>
+                        </div>
+                        <p>Pastel de chocolate con corazón líquido y helado de vainilla</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Crème Brûlée</h3>
+                            <div class="item-price">$10.99</div>
+                        </div>
+                        <p>Crema de vainilla con caramelo crujiente</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Selección de Helados Artesanales</h3>
+                            <div class="item-price">$9.99</div>
+                        </div>
+                        <p>Tres bolas de helado con salsa y toppings</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section" id="bebidas">
+                <h2>Bebidas</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Vino Tinto Reserva</h3>
+                            <div class="item-price">$8.99</div>
+                        </div>
+                        <p>Copa de vino tinto reserva de nuestra selección</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Cóctel Signature</h3>
+                            <div class="item-price">$12.99</div>
+                        </div>
+                        <p>Nuestra creación exclusiva con ginebra premium y frutos rojos</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Refrescos Artesanales</h3>
+                            <div class="item-price">$4.99</div>
+                        </div>
+                        <p>Selección de refrescos naturales con sabores únicos</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Agua Mineral</h3>
+                            <div class="item-price">$3.50</div>
+                        </div>
+                        <p>Agua mineral con o sin gas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-note">
+                <p>* Todos nuestros platos pueden adaptarse a restricciones dietéticas. Consulte con nuestro personal.</p>
+                <p>* Precios sujetos a cambio sin previo aviso.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de llamada a la acción -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>¿Listo para una experiencia culinaria única?</h2>
+            <p>Reserva tu mesa ahora y déjanos sorprenderte</p>
+            <div class="cta-buttons">
+                <a href="reservations.html" class="btn">Reservar Ahora</a>
+                <a href="tel:+34600123456" class="btn btn-outline">
+                    <i class="fas fa-phone"></i> Llamar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Sabores del Mundo</h3>
+                    <p>Av. Gourmet 123, Distrito Gastronómico</p>
+                    <p>Tel: +34 600 123 456</p>
+                    <p>contacto@saboresdelmundo.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Horario</h3>
+                    <p>Lunes a Viernes: 13:00 - 23:00</p>
+                    <p>Sábados: 12:00 - 00:00</p>
+                    <p>Domingos: 12:00 - 22:00</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="menu.html">Menú</a></li>
+                        <li><a href="about.html">Nuestra Cocina</a></li>
+                        <li><a href="gallery.html">Galería</a></li>
+                        <li><a href="reservations.html">Reservaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir nuestras promociones</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Sabores del Mundo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
