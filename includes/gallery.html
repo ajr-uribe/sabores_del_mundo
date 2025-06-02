@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería - Sabores del Mundo</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        Sabores<span>DelMundo</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="about.html">Nuestra Cocina</a></li>
+          <li><a href="gallery.html">Galería</a></li>
+          <li><a href="reservations.html">Reservaciones</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu">
+        ☰
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner de página -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Galería</h1>
+      <p>
+        Un recorrido visual por nuestra experiencia gastronómica
+      </p>
+    </div>
+  </section>
+
+  <!-- Galería completa -->
+  <section class="full-gallery">
+    <div class="container">
+      <div class="gallery-filter">
+        <button class="filter-btn active" data-filter="all">Todo</button>
+        <button class="filter-btn" data-filter="platos">Platos</button>
+        <button class="filter-btn" data-filter="postres">Postres</button>
+        <button class="filter-btn" data-filter="interior">Interior</button>
+        <button class="filter-btn" data-filter="eventos">Eventos</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="platos">
+          <img src="../assets/imgs/gallery1.jpg" alt="Plato principal">
+          <div class="gallery-overlay">
+            <h3>Risotto de Hongos</h3>
+            <p>
+              Con trufa negra y parmesano
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="platos">
+          <img src="../assets/imgs/gallery2.jpg" alt="Plato principal">
+          <div class="gallery-overlay">
+            <h3>Solomillo Wellington</h3>
+            <p>
+              Con reducción de oporto
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="postres">
+          <img src="../assets/imgs/gallery3.jpg" alt="Postre">
+          <div class="gallery-overlay">
+            <h3>Tiramisú Clásico</h3>
+            <p>
+              Con cacao en polvo
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="interior">
+          <img src="../assets/imgs/gallery4.jpg" alt="Interior del restaurante">
+          <div class="gallery-overlay">
+            <h3>Nuestro Salón Principal</h3>
+            <p>
+              Ambiente acogedor
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="platos">
+          <img src="../assets/imgs/gallery5.jpg" alt="Plato principal">
+          <div class="gallery-overlay">
+            <h3>Pasta Fresca</h3>
+            <p>
+              Con mariscos y salsa de vino blanco
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="postres">
+          <img src="../assets/imgs/gallery6.jpg" alt="Postre">
+          <div class="gallery-overlay">
+            <h3>Fondant de Chocolate</h3>
+            <p>
+              Con helado de vainilla
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="eventos">
+          <img src="../assets/imgs/gallery7.jpg" alt="Evento">
+          <div class="gallery-overlay">
+            <h3>Cena de Aniversario</h3>
+            <p>
+              Celebración especial
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="interior">
+          <img src="../assets/imgs/gallery8.jpg" alt="Interior del restaurante">
+          <div class="gallery-overlay">
+            <h3>Barra de Vinos</h3>
+            <p>
+              Selección premiada
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="eventos">
+          <img src="../assets/imgs/gallery9.jpg" alt="Evento">
+          <div class="gallery-overlay">
+            <h3>Noche de Vinos</h3>
+            <p>
+              Degustación exclusiva
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="platos">
+          <img src="../assets/imgs/gallery10.jpg" alt="Plato principal">
+          <div class="gallery-overlay">
+            <h3>Pato a la Naranja</h3>
+            <p>
+              Con reducción de cítricos
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="postres">
+          <img src="../assets/imgs/gallery11.jpg" alt="Postre">
+          <div class="gallery-overlay">
+            <h3>Crème Brûlée</h3>
+            <p>
+              Con caramelo crujiente
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="interior">
+          <img src="../assets/imgs/gallery12.jpg" alt="Interior del restaurante">
+          <div class="gallery-overlay">
+            <h3>Terraza Exterior</h3>
+            <p>
+              Ambiente relajado
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal">
+    <span class="close-lightbox">&times;</span>
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-image">
+      <div class="lightbox-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección de llamada a la acción -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>¿Listo para una experiencia culinaria única?</h2>
+      <p>
+        Reserva tu mesa ahora y déjanos sorprenderte
+      </p>
+      <div class="cta-buttons">
+        <a href="reservations.html" class="btn">Reservar Ahora</a>
+        <a href="tel:+34600123456" class="btn btn-outline">
+          <i class="fas fa-phone"></i> Llamar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3>Sabores del Mundo</h3>
+          <p>
+            Av. Gourmet 123, Distrito Gastronómico
+          </p>
+          <p>
+            Tel: +34 600 123 456
+          </p>
+          <p>
+            contacto@saboresdelmundo.com
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Horario</h3>
+          <p>
+            Lunes a Viernes: 13:00 - 23:00
+          </p>
+          <p>
+            Sábados: 12:00 - 00:00
+          </p>
+          <p>
+            Domingos: 12:00 - 22:00
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Enlaces Rápidos</h3>
+          <ul class="footer-links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="about.html">Nuestra Cocina</a></li>
+            <li><a href="gallery.html">Galería</a></li>
+            <li><a href="reservations.html">Reservaciones</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Newsletter</h3>
+          <p>
+            Suscríbete para recibir nuestras promociones
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Tu correo electrónico">
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; 2023 Sabores del Mundo. Todos los derechos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
